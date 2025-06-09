@@ -38,7 +38,22 @@
   body{
     background-color: white;
   }
+.image-container {
+  position: relative;
+  display: inline-block;
+}
 
+.new-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgb(16, 209, 239);
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+}
 
 
 </style>
@@ -238,13 +253,11 @@
                     style="object-fit: contain; height: 400px" alt="..." />
                 </div>
                 
-                <div class="carousel-item">
+                <div class="carousel-item image-container">
                   <img src="/assets/slider/IOT_trainer_kit_flyer_extc.jpeg" class="d-block w-100"
                     style="object-fit: contain; height: 400px" alt="..." />
+                    <div class="new-tag">NEW</div>
                 </div>
-
-                
-
                 
                 </div>
               </div>
