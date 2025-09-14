@@ -78,6 +78,38 @@
                 background-position: 1000px 0;
             }
         }
+        .academic-calendar-table,
+.newsletter-table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: sans-serif;
+  background-color: #f5faff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.academic-calendar-table th,
+.academic-calendar-table td,
+.newsletter-table th,
+.newsletter-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.blue-header-row {
+  background-color: #003366;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Only body rows hover */
+.academic-calendar-table tbody tr:hover,
+.newsletter-table tbody tr:hover {
+  background-color: #e6f2ff;
+  transition: background-color 0.3s ease;
+}
     </style>
 </head>
 
@@ -87,7 +119,7 @@
     </div>
     <main class="container-fluid">
         <div class="text">
-            <h1 style="display: flex; justify-content: center; align-items: center;">HYSTERIA</h1>
+            <h1 style="display: flex; justify-content: center; align-items: center">HYSTERIA</h1>
         </div>
         <div class=" p-0 ">
             <div class="row border rounded  border-dark mx-4 py-3 bg-dark">
@@ -151,7 +183,7 @@
         </div>
         <div class="col" style="padding: 5px;">
             <b
-                style="display: flex; align-items: center; justify-content: center; font-size: 30px; padding-bottom: 5px ; color: 	#303030;">What
+                style="display: flex; align-items: center; justify-content: center; font-size: 30px; padding-bottom: 5px ; color:#003366;">What
                 Is Hysteria ?</b>
             <p style="font-family: 'Roboto', sans-serif; font-size: 20px; align-items: left;">
                 Fulfilling the intention of including every single category of competitions and rocketing each skill set
@@ -166,9 +198,9 @@
 
         </div>
 
-        <div class="col" style="background-color: #C8C8C8;">
+        <div class="col" style="background-color: #e5e5e5;">
             <b
-                style="display: flex;justify-content: center;text-align: center; font-size: 30px; padding: 10px; border-color: aliceblue; border: 2px;">DEPARTMENTAL
+                style="display: flex;justify-content: center;text-align: center; font-size: 30px; padding: 10px; border-color: aliceblue; border: 2px; color: #003366;">DEPARTMENTAL
                 ACHIEVEMENTS</b>
             <div class="col">
                 <span style="font-family: 'Archivo', sans-serif; font-size: 20px; padding: 40px; padding-top: 30px; 
@@ -191,10 +223,10 @@
                             the Poster Presentation competition organised by IEEE-DBIT.
                         </p>
                     </li>
-                    <li>
+
                         <div class="container">
-                            <div class="table-responsive">
-                                <table class="table table-header" style="border-collapse: collapse" border="2">
+                            <div class="academic-calendar-table">
+                                <table class="table table-header" style="border-collapse: collapse;color: #003366;" border="2">
                                     <thead>
                                         <tr class="table-dark">
                                             <td>EVENTS</td>
@@ -296,13 +328,13 @@
                                 </table>
                             </div>
                         </div>
-                    </li>
+          
                 </ul>
 
 
             </div>
             <div class="col">
-                <span style="font-family: 'Archivo', sans-serif; font-size: 20px; padding: 40px; padding-top: 30px; 
+                <span style="font-family: 'Archivo', sans-serif; font-size: 20px; padding: 40px; padding-top: 30px; color: #003366; 
                 ">2017-2018</span>
                 <ul style="padding-top: 20px;">
                     <li>
@@ -359,7 +391,7 @@
 
             </div>
             <div class="col">
-                <span style="font-family: 'Archivo', sans-serif; font-size: 20px; padding: 40px; padding-top: 30px; 
+                <span style="font-family: 'Archivo', sans-serif; font-size: 20px; padding: 40px; padding-top: 30px; color: #003366; 
                 ">2016-2017</span>
                 <ul style="padding-top: 20px;">
                     <li>
@@ -466,7 +498,7 @@
 
             </div>
             <div class="col">
-                <span style="font-family: 'Archivo', sans-serif; font-size: 20px; padding: 40px; padding-top: 30px; 
+                <span style="font-family: 'Archivo', sans-serif; font-size: 20px; padding: 40px; padding-top: 30px; color: #003366; 
                 ">2015-2016</span>
                 <ul style="padding-top: 20px;">
                     <li>
