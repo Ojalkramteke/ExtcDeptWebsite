@@ -32,48 +32,146 @@
 
   gtag('config', 'G-4JDMRE8FDJ');
 </script>
+
+<style>
+  .header-section {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    background: url('/assets/collegepic.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+  }
+
+  .discover-box {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  h2{
+    color: #003366;
+  }
+
+        /* Header styling */
+.academic-calendar-header {
+  text-align: center;
+  padding: 20px 0;
+  font-family: sans-serif;
+}
+
+.academic-calendar-header h2 {
+  color: #003366;
+  margin: 0;
+}
+
+/* Table styling */
+.academic-calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: #f5faff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+/* Table head */
+.academic-calendar-table thead {
+  background-color: #003366;
+  color: white;
+}
+
+.academic-calendar-table th,
+.academic-calendar-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Table body rows */
+.academic-calendar-table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.academic-calendar-table tbody tr:hover {
+  background-color: #e6f2ff;
+}
+
+/* Links styling */
+.academic-calendar-table a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+.academic-calendar-table a:hover {
+  text-decoration: underline;
+}
+
+</style>
   </head>
   <body class="bg-color">
 
     <div id="navbar"></div>
 
     <main class="container-fluid">
-      <div style="text-align: center; padding: 5px; font-family: sans-serif;" ><h1>TEACHING STAFF</h1></div>
+      <div style="text-align: center; padding: 5px; font-family: sans-serif;" >
+
+        <div class="header-section">
+          <div class="discover-box">Discover EXTC
+            <br>
+            Faculty
+          </div>
+        </div>
+
+
+       
+        <div class="academic-calendar-header">
+          <h2>TEACHING STAFF</h2>
+        </div>
       <div class="row justify-content-center">
         <div class="row col-lg-8 p-3 m-">
-            <table class="table">
-                <thead class="table-dark">
+            <table class="academic-calendar-table">
+                <thead class=>
                   <tr>
-                    <th scope="col">Sr No</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Designation</th>
+                    <th >Sr No</th>
+                    <th >Name</th>
+                    <th >Designation</th>
                     <!--<th scope="col">Area of Specialization</th>
                     <th scope="col">email</th> -->
-                    <th scope="col">Details</th>
+                    <th>Details</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="bg-light">
+                  <tr>
                     <td>1.</td>
                     <td>Dr. Sudhakar Mande</td>
-                    <td>Professor & Principal</td>
-                    <td><a href="" target="_blank">blank</a></td>
-                  </tr>
-                  <tr class="bg-light">
-                    <td>2.</td>
-                    <td>Dr. Madhavi S. Pednekar </td>
-                    <td>Head of Department and Assistant Professor</td>
-                    <td><a href="/assets/pdf/Dbit Faculty Profile Madhavi_EXTC(1).pdf" target="_blank">View</a></td>
+                    <td>Principal</td>
+                    <td><a href="" target="_blank">view</a></td>
                   </tr>
                   <tr>
-                    <td>3.</td>
+                    <td>2.</td>
+                    <td>Ms. Madhavi Pednekar</td>
+                    <td>Head of Department and Assistant Professor</td>
+                    <td><a href="/assets/pdf/Dbit Faculty Profile Madhavi_EXTC.pdf" target="_blank">View</a></td>
+                  </tr>
+                     <td>3.</td>
                     <td>Dr. Ashwini Kotrashetti</td>
                     <td>Dean of Student Progress and Associate Professor</td>
                     <td><a href="/assets/pdf/Ashwini_Profile_2025.pdf" target="_blank">View</a></td>
                   </tr>
-                  <tr  class="bg-light">
-                    <td>4.</td>
-                    <td>Ms. Pratibha Dumane </td>
+                   <td>4.</td>
+                    <td>Ms. Pratibha Dumane</td>
                     <td>Dean of Academics and Assistant Professor</td>
                     <td><a href="/assets/pdf/Dbit Faculty Profile Pratibha_EXTC (1).pdf" target="_blank">View</a></td>
                   </tr>
@@ -83,12 +181,15 @@
                     <td>Assistant Professor</td>
                     <td><a href="/assets/pdf/Dbit Faculty Profile Namita_EXTC.pdf" target="_blank">View</a></td>
                   </tr>
-                  <tr  class="bg-light">
+                  <tr>
+                  <tr>
                     <td>6.</td>
-                    <td>Ms. Freda Carvalho</td>
+                    <td>Ms. Freda V. Carvalho</td>
                     <td>Assisant Professor</td>
                     <td><a href="/assets/pdf/Dbit Faculty Profile Freda_EXTC.pdf" target="_blank">View</a></td>
                   </tr>
+                  <tr>
+                   
                   <tr>
                     <td>7.</td>
                     <td>Ms. Poonam Chakraborty</td>
@@ -101,21 +202,22 @@
                     <td>Assisant Professor</td>
                     <td><a href="/assets/pdf/Dbit Faculty Profile Template_Aparna-1_Updated-1.pdf" target="_blank">View</a></td>
                   </tr>
-                  <tr class="bg-light">
+                  <tr>
                     <td>9.</td>
                     <td>Ms. Hemalata Mote</td>
                     <td>Assisant Professor</td>
-                    <td><a href="/assets/pdf/Dbit Faculty Profile Hemalata_EXTC.pdf" target="_blank">view</a></td>
+                    <td><a href="/assets/pdf/Dbit Faculty Profile Hemalata_EXTC.pdf" target="_blank">View</a></td>
                   </tr>
-                  <tr class="bg-light">
+                  <tr>
                     <td>10.</td>
-                    <td>Mr. Ankur Ganorkar</td>
+                    <td>Mr. Ankur Ganorkar</td>
                     <td>Assisant Professor</td>
                     <td><a href="/assets/pdf/Dbit Faculty Profile Ankur_EXTC.pdf" target="_blank">View</a></td>
                   </tr>
-                  <tr class="bg-light">
+
+                  <tr>
                     <td>11.</td>
-                    <td>Mr.  Jayarajesh Vattam</td>
+                    <td>Jayrajesh Vattam</td>
                     <td>Assisant Professor</td>
                     <td><a href="/assets/pdf/Dbit Faculty Profile Jayarajesh_EXTC.pdf" target="_blank">View</a></td>
                   </tr>
