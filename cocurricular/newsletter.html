@@ -24,19 +24,115 @@
   <!-- <link rel="stylesheet" href="../style/main.css" /> -->
   <title>DBIT EXTC</title>
   <!-- <script src="../temp.js" defer></script> -->
+   <style>
+  
+    .header-section {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    background: url('/assets/collegepic.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+  }
+
+  .discover-box {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  h2{
+    color: #003366;
+  }
+
+        /* Header styling */
+.academic-calendar-header {
+  text-align: center;
+  padding: 20px 0;
+  font-family: sans-serif;
+}
+
+.academic-calendar-header h2 {
+  color: #003366;
+  margin: 0;
+}
+
+/* Table styling */
+.academic-calendar-table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: #f5faff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+/* Table head */
+.academic-calendar-table thead {
+  background-color: #003366;
+  color: white;
+}
+
+.academic-calendar-table th,
+.academic-calendar-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Table body rows */
+.academic-calendar-table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.academic-calendar-table tbody tr:hover {
+  background-color: #e6f2ff;
+}
+
+/* Links styling */
+.academic-calendar-table a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+.academic-calendar-table a:hover {
+  text-decoration: underline;
+}
+
+</style>
 </head>
+
+
 
 <body>
   <div id="navbar"></div>
-  <div style="text-align: center; padding: 5px; font-family: sans-serif;" ><h1>NEWSLETTER</h1></div>
+  <div class="header-section">
+      <div class="discover-box">
+        Discover EXTC
+        <br />
+        Activities
+      </div>
+    </div>
+  <div style="text-align: center; padding: 5px; font-family: sans-serif; color: #003366;" ><h1>NEWSLETTER</h1></div>
   <div class="row justify-content-center">
     <div class="col-md-8 p-0 justify-content-center">
       <div class="row border rounded my-3 mx-4 py-3 bg-light">
-        <table class="table table-hover"
+        <table class="academic-calendar-table"
           style="text-align: center; height: 200px; margin-left: auto; margin-right: auto; width: 941px;">
         
           <tr class="table-dark">
-            <td colspan="3">
+            <td colspan="3" style=" background-color: #003366 ">
               <p style="text-align: center; font-family: sans-serif;"><strong>News Letter</strong></p>
             </td>
           </tr>
@@ -73,7 +169,7 @@
             <tr>
               <td>5</td>
               <td>&nbsp;2019-20</td>
-              <td>&nbsp;<a href="assets/pdf/EXTC - Spectrum 2019-2020.pdf'"
+              <td>&nbsp;<a href="https://drive.google.com/file/d/1xF7Blko9Abm0wx1QU8HSq-bZZ2ylIRNg/view?usp=drivesdk"
                   target="_blank">View</a></td>
             </tr>
             <tr>
