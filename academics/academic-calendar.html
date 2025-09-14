@@ -41,50 +41,140 @@
   .table tr{
     background-color: #888888;
   }
+
+.header-section {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    background: url('/assets/collegepic.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+  }
+
+  .discover-box {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header styling */
+.academic-calendar-header {
+  text-align: center;
+  padding: 20px 0;
+  font-family: sans-serif;
+}
+
+.academic-calendar-header h2 {
+  color: #003366;
+  margin: 0;
+}
+
+/* Table styling */
+.academic-calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: #f5faff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table head */
+.academic-calendar-table thead {
+  background-color: #003366;
+  color: white;
+}
+
+.academic-calendar-table th,
+.academic-calendar-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Table body rows */
+.academic-calendar-table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.academic-calendar-table tbody tr:hover {
+  background-color: #e6f2ff;
+}
+
+/* Links styling */
+.academic-calendar-table a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+.academic-calendar-table a:hover {
+  text-decoration: underline;
+}
+
+
 </style>
   </head>
 <body class="bg-color">
   <div id="navbar"></div>
   <main class="container-fluid">
     <div class="row justify-content-center p-5">
-      <div style="text-align: center; padding-bottom: 10px; font-family: sans-serif;" ><h1>ACADEMIC CALENDER</h1></div>
-       
-          <table class="table text-center table-borderless">
-            <thead>
-              <tr>
-                <th>Year</th>
-                <th>Timetable</th>
-              </tr>
-            </thead>
-            <tbody>
-               <tr class="bg-white">
-            <th>2024-2025 (Odd Semester)</th>
-            <td><a href="/assets/pdf/Academic Calendar AY2024-25 ODD Sem.pdf" target="_blank">View Calender</a></td>
-          </tr>
-           <tr class="bg-white">
-            <th>2024-2025 (Even Semester)</th>
-            <td><a href="/assets/pdf/Academic Calendar AY2024-25 EVEN Sem-5.pdf" target="_blank">View Calender</a></td>
-          </tr>
-              <tr class="bg-white">
-                <th>2023-2024 (Odd Semester)</th>
-                <td><a href="/assets/pdf/Academic_Calendar-AY-2023-24(odd).pdf">View Calender</a></td>
-              </tr>
-              <tr class="bg-white">
-                <th>2019-2020 (Even Semester)</th>
-                <td><a href="">View Calender</a></td>
-              </tr>
-              <tr class="bg-white">
-                <th>2019-2020 (Odd Semester)</th>
-                <td><a href="/assets/pdf/Academic_Calender_Odd_Sem_21_-_22.pdf">View Calender</a></td>
-              </tr>
-              <tr class="bg-white">
-                <th>2018-2019 (Odd Semester)</th>
-                <td><a href="/assets/pdf/Academic_Calender_Odd_Sem_21_-_22.pdf">View Calender</a></td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="header-section">
+        <div class="discover-box">Discover EXTC
+          <br>
+         Academics
+        </div>
+      </div>
+      
+      
         
-    </div>
+      <div class="academic-calendar-header">
+        <h2>ACADEMIC CALENDAR</h2>
+      </div>
+      
+      <table class="academic-calendar-table">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Timetable</th>
+          </tr>
+        </thead>
+        <tbody>
+           <tr>
+            <td>2024-2025 (Odd Semester)</td>
+            <td><a href="/assets/pdf/Academic Calendar AY2024-25 ODD Sem.pdf" target="_blank">View </a></td>
+          </tr>
+           <tr>
+            <td>2024-2025 (Even Semester)</td>
+            <td><a href="/assets/pdf/Academic Calendar AY2024-25 EVEN Sem-5.pdf" target="_blank">View </a></td>
+          </tr>
+          <tr>
+            <td>2023-2024 (Odd Semester)</td>
+            <td><a href="/assets/pdf/Academic_Calendar-AY-2023-24(odd).pdf" target="_blank">View </a></td>
+          </tr>
+          <tr>
+            <td>2019-2020 (Even Semester)</td>
+            <td><a href="#" target="_blank">View </a></td>
+          </tr>
+          <tr>
+            <td>2019-2020 (Odd Semester)</td>
+            <td><a href="/assets/pdf/Academic_Calender_Odd_Sem_21_-_22.pdf" target="_blank">View </a></td>
+          </tr>
+          <tr>
+            <td>2018-2019 (Odd Semester)</td>
+            <td><a href="/assets/pdf/Academic_Calender_Odd_Sem_21_-_22.pdf" target="_blank">View </a></td>
+          </tr>
+        </tbody>
+      </table>
+      
   </main>
 
   <div style="padding: 2rem;"></div>
